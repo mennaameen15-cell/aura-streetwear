@@ -1,0 +1,133 @@
+:root {
+    --accent: #FF4500;
+    --glass: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 25px 5%; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: transparent; 
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 10vw, 6rem); 
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.btn-primary {
+    padding: 12px 35px; 
+    background-color: #ffffff; 
+    color: #000000; 
+    border: none;
+    border-radius: 10px; 
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #eeeeee; 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+}
+.products-section {
+    padding: 100px 5%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--glass);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff; 
+    color: #000000; 
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: none; 
+    margin-top: 15px;
+}
+
+.buy-btn:hover {
+    background-color: #eeeeee; 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}

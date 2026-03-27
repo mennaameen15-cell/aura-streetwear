@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Streetwear Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AURA</div>
+    </header>
+
+   <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('brand.image/hero.png.jpg');">
+        <div class="hero-content">
+            <h1>AURA</h1>
+            <p>CHOOSE YOUR OWN HAPPY</p>
+            <button class="btn-primary" onclick="window.scrollTo(0, 800)">Explore Collection</button>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="grid">
+            
+            <div class="card">
+                <img src="brand.image/p1.png.jpg">
+                <h3>Bad Ideas Hoodie</h3>
+                <p class="price">450 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('Bad Ideas Hoodie', '450')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p2.png.jpg">
+                <h3>Green Polo Style</h3>
+                <p class="price">400 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('Green Polo Style', '400')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p3.png.jpg">
+                <h3>College 90 Edition</h3>
+                <p class="price">420 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('College 90 Edition', '420')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p5.png.jpg">
+                <h3>Navy & Cream Set</h3>
+                <p class="price">480 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('Navy & Cream Set', '480')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p6.png.jpg">
+                <h3>Grey Cargo Pants</h3>
+                <p class="price">700 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('Grey Cargo Pants', '700')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p7.png.jpg">
+                <h3>Beige Classic Pants</h3>
+                <p class="price">500 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('Beige Classic Pants', '500')">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p8.png.jpg">
+                <h3>NB Sneakers - Cream</h3>
+                <p class="price">550 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('NB Sneakers - Cream', '550' )">Order via WhatsApp</button>
+            </div>
+
+            <div class="card">
+                <img src="brand.image/p9.png.jpg">
+                <h3>NB Sneakers - Silver</h3>
+                <p class="price">600 EGP</p>
+                <button class="buy-btn" onclick="orderProduct('NB Sneakers - Silver',  '600')">Order via WhatsApp</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer style="background: #000; padding: 50px 5%; text-align: center; border-top: 1px solid #333;">
+        <h2 style="letter-spacing: 5px; margin-bottom: 20px;">AURA</h2>
+        <p style="color: #888; margin-bottom: 20px;">Choose Your Own Happy - Streetwear Brand</p>
+        <div class="social-links">
+            <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Instagram</a>
+            <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Facebook</a>
+        </div>
+        
+        <script src="script.js"></script>
+</body>
