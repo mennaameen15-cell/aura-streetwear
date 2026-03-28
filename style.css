@@ -114,7 +114,7 @@ header {
 .buy-btn {
     width: 100%;
     padding: 12px;
-    background-color: #ffffff; 
+    background-color: #25D366; 
     color: #000000; 
     border: none;
     border-radius: 10px;
@@ -131,3 +131,7 @@ header {
     transform: translateY(-3px); 
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
+
+
+
+
